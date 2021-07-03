@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
+import {useEffect,useState} from 'react';
 import './App.css';
+import Navigation from './Components/Navigation/Navigation';
+import About from './Components/About/About';
+import SelectPlayerAndDetails from './Components/SelectPlayerAndDetaiils/SelectPlayerAndDetails';
+import FadeLoader from "react-spinners/FadeLoader";
+
 
 function App() {
+  const [loading,setLoading] = useState(false);
+  useEffect(()=>{
+      setLoading(true)
+      setTimeout(()=>{
+        setLoading(false);
+      },2000)
+  },[]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+       <div>
+         {
+           loading ?
+           (
+              <div className="pre-loader">
+                <FadeLoader color="red" loading={loading}  size={150} />
+              </div>
+           )
+           :
+           (
+            <div>
+                <Navigation></Navigation>
+                <About></About>
+                <SelectPlayerAndDetails></SelectPlayerAndDetails>      
+            </div>
+           )
+         }
+       </div>
   );
 }
 

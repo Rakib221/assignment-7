@@ -1,0 +1,136 @@
+[{
+    "id": 1,
+    "name": "Lionel Messi",
+    "position": "RWF",
+    "image": "https://i.ibb.co/XpLVfPD/messi.jpg",
+    "salary": 23456,
+    "nationality": "Argentine",
+    "club": "FC Barcelona",
+    "current":"active"
+  }, {
+    "id": 2,
+    "name": "Cristiano Ronaldo",
+    "position": "CF",
+    "image": "https://i.ibb.co/QJh7yMk/ronaldo.jpg",
+    "salary": 16000,
+    "nationality": "Portuguese",
+    "club": "Juventus",
+    "current":"active"
+  }, {
+    "id": 3,
+    "name": "Neymar JR",
+    "position": "LWF",
+    "image": "https://i.ibb.co/9YYmyVt/neymar.jpg",
+    "salary": 17000,
+    "nationality": "Brazilian",
+    "club": "Paris Saint Germain",
+    "current":"active"
+  }, {
+    "id": 4,
+    "name": "Kevin De Bruyne",
+    "position": "AMF",
+    "image": "https://i.ibb.co/7nMBF5n/kevin.jpg",
+    "salary": 15678,
+    "nationality": "Belgian",
+    "club": "Man City",
+    "current":"active"
+  }, {
+    "id": 5,
+    "name": "Toni Kross",
+    "position": "CMF",
+    "image": "https://i.ibb.co/61gzdxD/tooni.jpg",
+    "salary": 12004,
+    "nationality": "German",
+    "club": "Real Madrid",
+    "current":"active"
+  }, {
+    "id": 6,
+    "name": "Kante",
+    "position": "CMF",
+    "image": "https://i.ibb.co/7gBJn2g/kante.jpg",
+    "salary": 10897,
+    "nationality": "French",
+    "club": "Chealse FC",
+    "current":"active"
+  }, {
+    "id": 7,
+    "name": "Sergio Busquets",
+    "position": "DMF",
+    "image": "https://i.ibb.co/FzJmVZg/sergio.jpg",
+    "salary": 9786,
+    "nationality": "Spanish",
+    "club": "FC Barcelona",
+    "current":"active"
+  }, {
+    "id": 8,
+    "name": "Jordi Alba",
+    "position": "LB",
+    "image": "https://i.ibb.co/N7CcJvh/jordi-alba.jpg",
+    "salary": 7890,
+    "nationality": "Spanish",
+    "club": "FC Barcelona",
+    "current":"active"
+  }, {
+    "id": 9,
+    "name": "Asraf Hakimi",
+    "position": "RB",
+    "image": "https://i.ibb.co/dMC50n9/hakimi.jpg",
+    "salary": 4567,
+    "nationality": "Moroccan",
+    "club": "Paris Saint Germain",
+    "current":"active"
+  }, {
+    "id": 10,
+    "name": "Sergio Ramos",
+    "position": "CB",
+    "image": "https://i.ibb.co/5Ysz6CS/ramos.jpg",
+    "salary": 11987,
+    "nationality": "Spanish",
+    "club": "Paris Saint Germain",
+    "current":"active"
+  }, {
+    "id": 11,
+    "name": "Cristian Romero",
+    "position": "CB",
+    "image": "https://i.ibb.co/NF5P69t/romero.jpg",
+    "salary": 2345,
+    "nationality": "Argentine",
+    "club": "Atalanta BC",
+    "current":"active"
+  }, {
+    "id": 12,
+    "name": "Juan Oblak",
+    "position": "GK",
+    "image": "https://i.ibb.co/bQk1Rb4/oblak.jpg",
+    "salary": 12987,
+    "nationality": "Slovenia",
+    "club": "Atlectico Madrid",
+    "current":"active"
+  }, {
+    "id": 13,
+    "name": "Diego Simeone",
+    "position": "Coach",
+    "image": "https://i.ibb.co/k8JD4t9/simione.jpg",
+    "salary": 20678,
+    "nationality": "Argentine",
+    "club": "Retired",
+    "current":"inactive"
+  }, {
+    "id": 14,
+    "name": "Zinedine Zidan",
+    "position": "Coach",
+    "image": "https://i.ibb.co/4SQxXkN/zidane.jpg",
+    "salary": 16789,
+    "nationality": "French",
+    "club": "Retired",
+    "current":"inactive"
+  }, {
+    "id": 15,
+    "name": "Pep Guardiola",
+    "position": "Coach",
+    "image": "https://i.ibb.co/m8DFTQR/guardiola.jpg",
+    "salary": 14987,
+    "nationality": "Spanish",
+    "club": "Retired",
+    "current":"inactive"
+  }]
